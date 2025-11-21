@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Elements - HTML5 Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header contains the main heading and navigation -->
+    <header>
+        <h1>SEMANTIC ELEMENTS</h1>
+        <nav>
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='page2.html'">Best Practices</button>
+            <button onclick="location.href='page3.html'">Resources</button>
+        </nav>
+    </header>
+
+    <!-- Container holds the main content layout -->
+    <div class="container">
+        
+        <!-- Article represents the main content -->
+        <article>
+            <h2>Understanding Semantic HTML5 Elements</h2>
+            <p>Semantic elements clearly describe their meaning to both the browser and the developer. Unlike generic div and span elements, semantic tags like header, nav, article, and footer tell us exactly what kind of content they contain.</p>
+
+            <!-- Section Area I -->
+            <section>
+                <h3>Why Use Semantic Elements?</h3>
+                <p>Semantic HTML improves accessibility for screen readers, helps with SEO by giving search engines better context about your content, makes your code more readable and maintainable, and provides better structure for your documents. When you use semantic elements, you're creating a more meaningful document outline that both humans and machines can understand.</p>
+            </section>
+
+            <!-- Section Area II -->
+            <section>
+                <h3>Common Semantic Elements</h3>
+                <p>The most commonly used semantic elements include: header (introductory content), nav (navigation links), main (dominant content), article (independent content), section (thematic grouping), aside (tangentially related content), footer (closing content), figure (self-contained content like images), and time (dates and times). Each serves a specific purpose in document structure.</p>
+            </section>
+        </article>
+
+        <!-- Aside for supplementary content -->
+        <aside>
+            <h2>Quick Tips</h2>
+            <p>Remember that semantic elements are about meaning, not presentation. Don't choose an element based on how it looks by default - use CSS for styling. Choose elements based on what the content represents in your document structure.</p>
+            <p>A single page can have multiple article, section, or nav elements. Use them wherever they make semantic sense for your content organization.</p>
+            
+            <nav>
+                <h3>Additional Pages</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page2.html">Best Practices</a></li>
+                    <li><a href="page3.html">Resources</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+    </div>
+
+</body>
+</html>
