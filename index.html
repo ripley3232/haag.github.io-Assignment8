@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Structural Elements</title>
+    <style>
+        /* Basic reset and body styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        /* Header section with navigation */
+        header {
+            background: linear-gradient(to bottom, #87CEEB, #4682B4);
+            border: 4px solid #4682B4;
+            padding: 30px;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            color: #FF1493;
+            text-align: center;
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(255,255,255,0.5);
+        }
+
+        /* Navigation buttons */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav button {
+            background-color: #F4A460;
+            border: 2px solid #D2691E;
+            padding: 10px 30px;
+            font-size: 1.1em;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        nav button:hover {
+            background-color: #FF8C00;
+        }
+
+        /* Main container for article and aside */
+        .container {
+            display: flex;
+            gap: 20px;
+        }
+
+        /* Article section */
+        article {
+            flex: 2;
+            background-color: #FFDAB9;
+            border: 3px solid #F4A460;
+            padding: 25px;
+        }
+
+        article > h2 {
+            color: #FF1493;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        article > p {
+            color: #000;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        /* Section elements inside article */
+        section {
+            background: linear-gradient(to bottom, #87CEEB, #B0E0E6);
+            border: 2px solid #4682B4;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+        section h3 {
+            color: #FF1493;
+            margin-bottom: 10px;
+            font-size: 1.5em;
+        }
+
+        section p {
+            color: #000;
+            font-style: italic;
+            line-height: 1.5;
+        }
+
+        /* Aside section */
+        aside {
+            flex: 1;
+            background-color: #FFDAB9;
+            border: 3px solid #F4A460;
+            padding: 25px;
+        }
+
+        aside h2 {
+            color: #FF1493;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        aside p {
+            color: #000;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header contains the main heading and navigation -->
+    <header>
+        <h1>HTML5 HEADER SECTION</h1>
+        <nav>
+            <button>NAV #1</button>
+            <button>NAV #2</button>
+            <button>NAV #3</button>
+        </nav>
+    </header>
+
+    <!-- Container holds the main content layout -->
+    <div class="container">
+        
+        <!-- Article represents the main content -->
+        <article>
+            <h2>The Article Area</h2>
+            <p>This element represents an independent piece of content of a document, such as a blog entry, magazine or newspaper article, user comments, interactive widget, or any item of content.</p>
+
+            <!-- Section Area I -->
+            <section>
+                <h3>Section Area I</h3>
+                <p>"Sections are thevily debated... although it seems that most people are happiest with the definition that it can be utilized as: which materials into some form of categorized or chronological format..."</p>
+            </section>
+
+            <!-- Section Area II -->
+            <section>
+                <h3>Section Area II</h3>
+                <p>Cumpsum dolor sit amet sleep on the sofa bonboy i smell a rat. meow into molly catwalk cumpsum. I frightened a little mouse humbinn where have u been strog tiger sunkss ding this tail. Baywnnnnn been kittens having on my dute cutinguu bigp skweichyy likes crywyit ball. Longhair harpsse mincow sheerhair compy. Fur ball bowl meety chartreux hair ball witamoununu fluffy.</p>
+            </section>
+        </article>
+
+        <!-- Aside for supplementary content -->
+        <aside>
+            <h2>The Aside Section</h2>
+            <p>The aside can represent secondary content outside of an article, that is considered secondary to the main content in the article. The aside can be cool typography designs, quotes, advertising, etc... The aside can also be utilized within an article, although in this instance there should be some parallel to the content of the article.</p>
+            <p>Although it may look like a sidebar in the sense of a navigational widget, it is always wise to use the nav element instead of an aside when you would like to place additional navigational elements.</p>
+        </aside>
+
+    </div>
+
+</body>
+</html>
