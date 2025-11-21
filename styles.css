@@ -1,0 +1,115 @@
+/* Basic reset and body styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+/* Header section with navigation */
+header {
+    background: linear-gradient(to bottom, #87CEEB, #4682B4);
+    border: 4px solid #4682B4;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #FF1493;
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(255,255,255,0.5);
+}
+
+/* Navigation buttons */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav button {
+    background-color: #F4A460;
+    border: 2px solid #D2691E;
+    padding: 10px 30px;
+    font-size: 1.1em;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav button:hover {
+    background-color: #FF8C00;
+}
+
+/* Main container for article and aside */
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Article section */
+article {
+    flex: 2;
+    background-color: #FFDAB9;
+    border: 3px solid #F4A460;
+    padding: 25px;
+}
+
+article > h2 {
+    color: #FF1493;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+article > p {
+    color: #000;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Section elements inside article */
+section {
+    background: linear-gradient(to bottom, #87CEEB, #B0E0E6);
+    border: 2px solid #4682B4;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+section h3 {
+    color: #FF1493;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+section p {
+    color: #000;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+/* Aside section */
+aside {
+    flex: 1;
+    background-color: #FFDAB9;
+    border: 3px solid #F4A460;
+    padding: 25px;
+}
+
+aside h2 {
+    color: #FF1493;
+    margin-bottom: 15px;
+    font-size: 1.8em;
+}
+
+aside p {
+    color: #000;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
