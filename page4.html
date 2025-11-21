@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists and Links - HTML5 Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header contains the main heading and navigation -->
+    <header>
+        <h1>LISTS AND LINKS</h1>
+        <nav>
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='page1.html'">Semantic Elements</button>
+            <button onclick="location.href='page2.html'">Best Practices</button>
+            <button onclick="location.href='page3.html'">Resources</button>
+        </nav>
+    </header>
+
+    <!-- Container holds the main content layout -->
+    <div class="container">
+        
+        <!-- Article represents the main content -->
+        <article>
+            <h2>Working with Lists and Links</h2>
+            <p>Lists and links are fundamental building blocks of web pages. Understanding how to use them properly helps create well-structured, accessible, and user-friendly websites.</p>
+
+            <!-- Section about Unordered Lists -->
+            <section>
+                <h3>Unordered Lists</h3>
+                <p>Unordered lists use the &lt;ul&gt; element and display items with bullets. They're perfect for lists where the order doesn't matter. Here's an example of an unordered list:</p>
+                <ul>
+                    <li>Apples</li>
+                    <li>Bananas</li>
+                    <li>Oranges</li>
+                    <li>Grapes</li>
+                </ul>
+                <p>Each item in the list is wrapped in an &lt;li&gt; (list item) tag. Unordered lists are great for navigation menus, feature lists, and collections of related items.</p>
+            </section>
+
+            <!-- Section about Ordered Lists -->
+            <section>
+                <h3>Ordered Lists</h3>
+                <p>Ordered lists use the &lt;ol&gt; element and display items with numbers. Use them when the sequence matters. Here's an example of an ordered list:</p>
+                <ol>
+                    <li>Preheat the oven to 350°F</li>
+                    <li>Mix dry ingredients in a bowl</li>
+                    <li>Add wet ingredients and stir</li>
+                    <li>Pour into baking pan</li>
+                    <li>Bake for 30 minutes</li>
+                </ol>
+                <p>Ordered lists are ideal for step-by-step instructions, rankings, procedures, and any content where order is important.</p>
+            </section>
+
+            <!-- Section about Links -->
+            <section>
+                <h3>Links (Anchor Tags)</h3>
+                <p>Links use the &lt;a&gt; (anchor) element with an href attribute to create clickable connections between pages. Links are essential for navigation and connecting content. Here are some examples:</p>
+                <ul>
+                    <li><a href="index.html">Link to Home Page</a></li>
+                    <li><a href="page1.html">Link to Semantic Elements</a></li>
+                    <li><a href="https://developer.mozilla.org" target="_blank">External Link to MDN</a></li>
+                    <li><a href="#top">Link to top of page</a></li>
+                </ul>
+                <p>The href attribute specifies the destination. Use relative paths for internal pages, absolute URLs for external sites, and add target="_blank" to open links in a new tab. You can also use anchor links to jump to specific sections within a page.</p>
+            </section>
+        </article>
+
+        <!-- Aside for supplementary content -->
+        <aside>
+            <h2>List Tips</h2>
+            <p>Lists can be nested inside each other to create hierarchical structures. You can also style lists with CSS to remove bullets, change numbering styles, or create horizontal navigation menus.</p>
+            <p>Always ensure links have descriptive text - avoid "click here" in favor of meaningful descriptions that tell users where the link goes.</p>
+            
+            <nav>
+                <h3>Additional Pages</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page1.html">Semantic Elements</a></li>
+                    <li><a href="page2.html">Best Practices</a></li>
+                    <li><a href="page3.html">Resources</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+    </div>
+
+</body>
+</html>
