@@ -94,6 +94,14 @@ section p {
     line-height: 1.5;
 }
 
+section img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin: 15px auto;
+    border-radius: 5px;
+}
+
 /* Aside section */
 aside {
     flex: 1;
