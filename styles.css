@@ -102,6 +102,27 @@ section img {
     border-radius: 5px;
 }
 
+section ul,
+section ol {
+    margin: 15px 0 15px 30px;
+    line-height: 1.8;
+}
+
+section li {
+    margin-bottom: 8px;
+}
+
+section a {
+    color: #20B2AA;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    color: #FF6B6B;
+    text-decoration: underline;
+}
+
 /* Aside section */
 aside {
     flex: 1;
@@ -125,8 +146,11 @@ aside p {
 /* Navigation in aside */
 aside nav {
     margin-top: 20px;
-    padding-top: 20px;
+    padding: 20px;
     border-top: 2px solid #DEB887;
+    background-color: #AFEEEE;
+    border-radius: 15px;
+    border: 3px solid #20B2AA;
 }
 
 aside nav h3 {
