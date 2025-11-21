@@ -8,19 +8,19 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: #FAF3E0;
 }
 
 /* Header section with navigation */
 header {
-    background: linear-gradient(to bottom, #87CEEB, #4682B4);
-    border: 4px solid #4682B4;
+    background: linear-gradient(to bottom, #20B2AA, #008B8B);
+    border: 4px solid #006666;
     padding: 30px;
     margin-bottom: 20px;
 }
 
 header h1 {
-    color: #FF1493;
+    color: #FF6B6B;
     text-align: center;
     font-size: 3em;
     margin-bottom: 20px;
@@ -35,8 +35,8 @@ nav {
 }
 
 nav button {
-    background-color: #F4A460;
-    border: 2px solid #D2691E;
+    background-color: #FF7F50;
+    border: 2px solid #E76F51;
     padding: 10px 30px;
     font-size: 1.1em;
     color: white;
@@ -45,7 +45,7 @@ nav button {
 }
 
 nav button:hover {
-    background-color: #FF8C00;
+    background-color: #FF6347;
 }
 
 /* Main container for article and aside */
@@ -57,13 +57,13 @@ nav button:hover {
 /* Article section */
 article {
     flex: 2;
-    background-color: #FFDAB9;
-    border: 3px solid #F4A460;
+    background-color: #FFFAF0;
+    border: 3px solid #DEB887;
     padding: 25px;
 }
 
 article > h2 {
-    color: #FF1493;
+    color: #FF6B6B;
     margin-bottom: 15px;
     font-size: 1.8em;
 }
@@ -76,14 +76,14 @@ article > p {
 
 /* Section elements inside article */
 section {
-    background: linear-gradient(to bottom, #87CEEB, #B0E0E6);
-    border: 2px solid #4682B4;
+    background: linear-gradient(to bottom, #AFEEEE, #B0E0E6);
+    border: 2px solid #20B2AA;
     padding: 20px;
     margin-bottom: 15px;
 }
 
 section h3 {
-    color: #FF1493;
+    color: #FF6B6B;
     margin-bottom: 10px;
     font-size: 1.5em;
 }
@@ -97,13 +97,13 @@ section p {
 /* Aside section */
 aside {
     flex: 1;
-    background-color: #FFDAB9;
-    border: 3px solid #F4A460;
+    background-color: #FFFAF0;
+    border: 3px solid #DEB887;
     padding: 25px;
 }
 
 aside h2 {
-    color: #FF1493;
+    color: #FF6B6B;
     margin-bottom: 15px;
     font-size: 1.8em;
 }
@@ -112,4 +112,37 @@ aside p {
     color: #000;
     line-height: 1.6;
     margin-bottom: 15px;
+}
+
+/* Navigation in aside */
+aside nav {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 2px solid #DEB887;
+}
+
+aside nav h3 {
+    color: #008B8B;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+}
+
+aside nav ul {
+    list-style: none;
+}
+
+aside nav li {
+    margin-bottom: 8px;
+}
+
+aside nav a {
+    color: #20B2AA;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+aside nav a:hover {
+    color: #FF6B6B;
+    text-decoration: underline;
 }
