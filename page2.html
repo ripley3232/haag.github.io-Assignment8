@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Practices - HTML5 Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header contains the main heading and navigation -->
+    <header>
+        <h1>BEST PRACTICES</h1>
+        <nav>
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='page1.html'">Semantic Elements</button>
+            <button onclick="location.href='page3.html'">Resources</button>
+        </nav>
+    </header>
+
+    <!-- Container holds the main content layout -->
+    <div class="container">
+        
+        <!-- Article represents the main content -->
+        <article>
+            <h2>HTML5 Best Practices</h2>
+            <p>Following best practices ensures your HTML5 code is clean, accessible, and maintainable. These guidelines help you write better semantic markup that serves both users and developers well.</p>
+
+            <!-- Section Area I -->
+            <section>
+                <h3>Document Structure</h3>
+                <p>Always start with a proper DOCTYPE declaration. Use only one h1 per page for your main heading. Create a logical heading hierarchy (h1, h2, h3) without skipping levels. Include lang attribute in your html tag to specify the document language. Use meta tags for character encoding and viewport settings in your head section.</p>
+            </section>
+
+            <!-- Section Area II -->
+            <section>
+                <h3>Accessibility Guidelines</h3>
+                <p>Add alt attributes to all images with meaningful descriptions. Use semantic elements instead of divs where appropriate. Ensure sufficient color contrast for text readability. Make sure all interactive elements are keyboard accessible. Use ARIA labels when semantic HTML alone isn't sufficient. Test your site with screen readers to verify accessibility.</p>
+            </section>
+        </article>
+
+        <!-- Aside for supplementary content -->
+        <aside>
+            <h2>Pro Tips</h2>
+            <p>Validate your HTML regularly using the W3C validator to catch errors early. Keep your CSS in external files for better maintainability and caching. Use comments to explain complex sections of code for future reference.</p>
+            <p>Organize your files in a logical folder structure. Use lowercase for file names and avoid spaces - use hyphens instead.</p>
+            
+            <nav>
+                <h3>Additional Pages</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="page1.html">Semantic Elements</a></li>
+                    <li><a href="page3.html">Resources</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+    </div>
+
+</body>
+</html>
